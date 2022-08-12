@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- CSS only -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6ae607b9d1.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee | Gulp Roast</title>
+</head>
+
+
+
+<body class="m-0 p-0 bg-light text-dark container-md-lg">
+
+    <header>
+
+        <div class="m-0 p-0 position-relative pe-5 md-50" style="height: 30px;">
+            <div class="position-absolute" style="right: 190px;">
+                <input placeholder="search" class="d-block position-absolute">
+                <i class="fa-solid fa-magnifying-glass d-block position-absolute text-muted"
+                    style="right:-180px; top: 8px;"></i>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-sm bg-light ps-4">
+
+            <!-- <a class="navbar-brand" href="https://uxuicurriculum.wixsite.com">Gulp Coffee</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav d-flex align-items-center flex-fill" style="height: 100px;">
+                    <a class="nav-link  border border-1" href="index.html"> <img src="logo.png"></a>
+
+                    <a class="nav-link border border-1 flex-fill h-100" style="line-height:80px"
+                        href="jobseekers.html">Job Seekers</a>
+                    <a class="nav-link  border border-1 flex-fill h-100" style="line-height:80px"
+                        href="employers.html">Employers</a>
+                    <a class="nav-link  border border-1 flex-fill h-100" style="line-height:80px"
+                        href="unemployment.html">Unemployment</a>
+                    <a class="nav-link  border border-1 flex-fill h-100" style="line-height:80px"
+                        href="news.html">News</a>
+                    <a class="nav-link  border border-1 flex-fill d-block h-100" style="line-height:80px"
+                        href="resources.html">Resources</a>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="bg-light">
+    
+        <div class="container">
+          <main>
+            <div class="py-5 text-center">
+              <h2>Begin Filling Claim</h2>
+            </div>
+        
+            <div class="row g-5">
+              <div class="col-md-5 col-lg-4 order-md-last">
+                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                  <span style="color:#0f7c83">Material Checklist:</span>
+                </h4>
+                <ul class="list-group mb-3">
+                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                      <h6 class="my-0">Personal Information</h6>
+                      <small class="text-muted">Brief description</small>
+                    </div>
+                    <span class="text-muted"><i class="fa-solid fa-check"></i></span> 
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                      <h6 class="my-0">Paper Work</h6>
+                      <small class="text-muted">Brief description</small>
+                    </div>
+                    <span class="text-muted"><i class="fa-solid fa-check"></i></span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                      <h6 class="my-0">Documentation</h6>
+                      <small class="text-muted">Brief description</small>
+                    </div>
+                    <span class="text-muted"><i class="fa-solid fa-check"></i></span>
+                  </li>
+                  
+                 
+                </ul>
+        
+                <form class="card p-2">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Sign Here">
+                    <a href="submit.html" type="submit" class="btn btn-secondary">Submit</a>
+                  </div>
+                </form>
+              </div>
+              <div class="col-md-7 col-lg-8">
+                <h4 class="mb-3">Billing address</h4>
+                <form class="needs-validation" novalidate>
+                  <div class="row g-3">
+                        
+    
+                    <div class="col-12">
+                      <label for="username" class="form-label">Social Security #</label>
+                      <div class="input-group has-validation">
+                       
+                        <input type="text" class="form-control" id="username" placeholder="Social Security #" required>
+                      <div class="invalid-feedback">
+                          Your username is required.
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-12">
+                      <label for="email" class="form-label">Confirm SSN<span class="text-muted"></span></label>
+                      <input type="email" class="form-control" id="email" placeholder="Confirm SSN #">
+                      <div class="invalid-feedback">
+                        Please enter a valid email address for shipping updates.
+                      </div>
+                    </div>
+        
+                    <div class="col-12">
+                      <label for="address" class="form-label">Personal Identification #</label>
+                      <input type="text" class="form-control" id="address" placeholder="Personal Identification #" required>
+                      <div class="invalid-feedback">
+                        Please enter your personal identification #.
+                      </div>
+                    </div>
+        
+                    <div class="col-12">
+                      <label for="address2" class="form-label">Confirm PIN<span class="text-muted">(Optional)</span></label>
+                      <input type="text" class="form-control" id="address2" placeholder="Confirm PIN">
+                    </div>
+        
+                  </div>
+        
+                  <hr class="my-4">
+        
+     
+        
+                  <a href="submit.html" class="w-100 btn btn-primary btn-lg border-0" style="background-color:#0f7c83">Submit</a>
+
+               
+
+                </form>
+              </div>
+            </div>
+          </main>
+        
+          
+        </div>
+        
+        
+            <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+        
+              <script src="form-validation.js"></script>
+        </section>
+
+    <footer class=" border-secondary border-top border-5 text-center py-5 mt-5 bg-light text-dark">
+        <div class="container-md d-flex flex-column flex-md-row">
+            <div class="p-2">
+                <p>
+                <h6>Address</h6>
+                401 Broadway NE, Albuquerque, NM 87102
+                MAILING ADDRESS
+                PO Box 1928, Albuquerque, NM 87103</p>
+            </div>
+            <div class="p-2">
+                <p><small>
+                        <h6>Resource Links</h6>
+                        Office Locations
+                        Contact Us
+                        Equal Opportunity is the Law
+                        Inspection of Public Records Act
+                        Latest News
+                        External Links
+                        AmeriCorps
+                    </small></p>
+            </div>
+
+            <div class="p-2">
+                <p><small>
+                        <h6>Additional Resources</h6>
+                        Trade Adjustment Assistance
+                        Alternative Assistance
+                        About Us
+                        Local Workforce Development Boards
+                        Workforce Innovation and Opportunity Act
+                    </small></p>
+
+            </div>
+
+            <div class="p-2">
+                <p><small>
+                        <h6>FAQ's</h6>
+                        Apprenticeship
+                        Business
+                        Labor Relations
+                        Veterans
+                        Unemployment Insurance
+                        Appeals
+                        SIDES
+                    </small></p>
+
+            </div>
+
+            <div class="p-2">
+                <p><small>
+                        <h6>Additional Links</h6>
+                        Economic News
+                        Office of the Governor
+                        New Mexico.Gov
+                        SAVE Program
+                        PULLTOGETHER.ORG
+                        Energy Transition Act Committee
+
+                    </small></p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- <footer>
+        <p>&copy; 2022 Gulp Roast Coffee. All rights reserved.</p>
+        <p>© 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.</p>
+        <ul>
+            <li>
+                <a href="https://facebook.com" target="_blank">
+                    <span aria-hidden="true" class="fa-brands fa-facebook-square"></span>
+                    <span class="sr-only">Facebook</span>
+
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank">
+                    <span aria-hidden="true" class="fa-brands fa-twitter-square"></span>
+                    <span class="sr-only">Twitter</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank">
+                    <span aria-hidden="true" class="fa-brands fa-instagram-square"></span>
+                    <span class="sr-only">Instagram</span>
+                </a>
+            </li>
+        </ul>
+    </footer> -->
+
+</body>
+
+</html>
